@@ -19,10 +19,6 @@ header {
     font-weight: 700;
     font-size: 65px;
     text-align: right;
-    /* width: 525px;
-    height: 228px;
-    left: 845px;
-    top: 216px; */
     padding: 216px 230px 0px 845px;
     margin-bottom: 24px;
 }
@@ -32,12 +28,16 @@ header {
     font-size: 16px;
     text-align: right;
     color: #444343;
-    /* width: 494px;
-    height: 78px;
-    left: 876px;
-    top: 468px; */
     padding: 0px 230px 263px 876px;
-    margin-bottom: 32px;
+}
+
+.contact-button {
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    position: absolute;
+    margin-top: 32px;
 }
 
 .first-button {
@@ -49,18 +49,18 @@ header {
     text-align: right;
     background: #F15B22;
     border-radius: 5px;
-    width: 160px;
-    height: 64px;
-    left: 1210px;
-    top: 578px;
-    position: absolute;
 }
 
 /* First section of main project */
 
 .first-part {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    width: 1072px;
+    height: 724px;
+    left: 206px;
+    top: 939px;
+    margin: 130px 322px 130px 206px;
 }
 
 .content {
@@ -68,7 +68,7 @@ header {
     height: 400px;
     left: 862px;
     top: 1178px;
-    padding: 369px 322px 214px 87px;
+    padding: 239px 0 84px;
 }
 
 .first-title {
@@ -98,7 +98,6 @@ header {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
-    /* padding: 8px; */
 }
 
 ul li::marker {
@@ -110,19 +109,22 @@ ul li {
     margin: 8px;
 }
 
-.girl-photo {
-    margin-top: 130px;
-    margin-left: 206px;
-    /* margin: 130 px 0 130px 206px; */
-    /* background-color: pink; */
-}
 
 /* plan section */
+
+
+.ideas {
+    width: 1141px;
+    height: 300px;
+    left: 230px;
+    top: 1792px;
+    margin: 130px 230px;
+
+}
 
 .plan {
     display: flex;
     gap: 86px;
-    margin: 130px 230px;
     width: 1141px;
     height: 300px;
     left: 230px;
@@ -138,7 +140,7 @@ ul li {
     height: 47px;
     left: 711px;
     top: 1793px;
-    margin: 130px 710px 50px;
+    margin: 0 480.5px 50px;
 }
 
 .plan-title {
@@ -159,6 +161,33 @@ ul li {
 .logo {
     margin-bottom: 24px
 }
+
+/* Extra section */
+
+.special-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #aa0202;
+    align-items: center;
+    margin: 130px 710px 50px;
+}
+
+.special-videos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 0 100px;
+}
+
+.video-title {
+    text-align: center;
+    width: 560px;
+    height: 70px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
 
 /* image+gradient */
 
@@ -275,6 +304,8 @@ ul li {
 }
 
 #email {
+    border: 2px snow;
+    border-radius: 10px;
     width: 325px;
     height: 64px;
     font-weight: 400;
